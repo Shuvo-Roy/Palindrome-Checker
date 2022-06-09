@@ -58,6 +58,10 @@ header p{
     background: blue;
     pointer-events: none;
 }
+.inputs button.active{
+    opacity: 1;
+    pointer-events: auto;
+}
 .info-text{
     display: none;
     font-size: 20px;
